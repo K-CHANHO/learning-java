@@ -1,0 +1,25 @@
+
+public class WhyMethod {
+
+	public static void printTwoTimesA() {
+		printTwoTimesA1();
+	}
+	
+	public static void main(String[] args) {
+		
+		// 100000000
+		printTwoTimesA1();
+		// 100000000
+        printTwoTimesA1();
+        // 100000000
+        printTwoTimesA1();
+
+	}
+
+	public static void printTwoTimesA1() {
+		System.out.println("-");
+		System.out.println("Aa");
+		System.out.println("Aa");
+	}
+
+}
